@@ -1,0 +1,87 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom:100px; /* Spazio extra per compensare il footer */
+    background: #f9f9f9;
+  }
+  
+  
+  .about-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .about-image {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .code-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-info {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .project-previews {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .preview-title {
+    font-size: 1.8rem;
+    color: #0073b1;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .preview-frames {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .preview-frame {
+    flex: 1 1 30%;
+    height: 700px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Media Query per dispositivi mobili */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-image {
+      margin-bottom: 1rem;
+    }
+  
+    .preview-frames {
+      flex-direction: column;
+    }
+  
+    .preview-frame {
+      width: 100%;
+      height: 1200px; /* Altezza maggiore per mobile */
+      min-height: 800px; /* Altezza minima per garantire visibilità */
+      margin-bottom: 1rem;
+    }
+  }
+  

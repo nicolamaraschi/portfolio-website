@@ -1,0 +1,24 @@
+/* src/styles/ProjectCard.css */
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .project-card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  

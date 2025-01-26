@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.custom-navbar {
+  font-family: 'DM Serif Text', serif; /* Usa il font DM Serif Text */
+  font-size: 1.3rem; /* Font size ingrandito */
+}
+
+.navbar-logo {
+  font-size: 1.8rem; /* Ingrandire il logo */
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease;
+  text-transform: uppercase; /* Rendi il testo dei link maiuscolo */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff8c00;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  margin: 0 0.75rem;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}

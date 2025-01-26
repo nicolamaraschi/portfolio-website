@@ -1,0 +1,61 @@
+/* src/styles/Projects.css */
+.projects {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .projects-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .timeline-year {
+    padding: 1rem;
+    border-left: 4px solid #0073b1;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .year {
+    font-size: 1.75rem;
+    color: #0073b1;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-item {
+    margin-left: 1rem;
+    padding: 1rem;
+    border-left: 2px solid #ddd;
+  }
+  
+  .experience-title {
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  .experience-role {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .experience-description {
+    list-style: disc;
+    margin: 0.5rem 0 1rem 1.5rem;
+    color: #666;
+  }
+  
+  .experience-skills {
+    font-size: 1rem;
+    color: #0073b1;
+  }
+  
