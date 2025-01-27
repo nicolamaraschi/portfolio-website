@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css'; // Corrected path
+import '../styles/Navbar.css';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +43,22 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/about">
                 👤 Chi Sono
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/creational-patterns">
+                📐 Design Pattern
+              </Link>
+            </li>
+            {/* Nuovo link aggiunto */}
+            <li className="nav-item">
+              <Link className="nav-link" to="/cleanCode">
+                🧹 Clean Code
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Refactoring">
+                🧹 Refactoring
               </Link>
             </li>
             <li className="nav-item">

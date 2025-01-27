@@ -6,34 +6,37 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import ErrorBoundary from './components/ErrorBoundary'; // Aggiungi un Error Boundary
+import CreationalPatterns from './pages/Pattern'; // Aggiungi l'import del componente
+import ErrorBoundary from './components/ErrorBoundary';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CleanCode from './pages/CleanCode'; // Aggiungi l'import del componente
+import Refactoring from './pages/Refactoring'; // Aggiungi l'import del componente
 
 function App() {
   return (
     <Router>
-      {/* Navbar */}
       <Navbar />
 
-      {/* Error Boundary per gestire errori nei componenti */}
       <ErrorBoundary>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          {/* Pagina 404 per rotte non trovate */}
+          {/* Nuova rotta per i Design Pattern Creazionali */}
+          <Route path="/creational-patterns" element={<CreationalPatterns />} />
+          <Route path="/CleanCode" element={<CleanCode />}/> 
+          <Route path="/Refactoring" element={<Refactoring />} />
+          {/* Pagina 404 */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </ErrorBoundary>
 
-      {/* Footer */}
       <Footer />
     </Router>
   );
 }
 
-// Componente per la pagina 404
 function NotFound() {
   return (
     <div className="container mt-5 text-center">
