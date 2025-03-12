@@ -46,7 +46,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/creational-patterns">
+            <Link className="nav-link" to="/Pattern">
                 📐 Design Pattern
               </Link>
             </li>

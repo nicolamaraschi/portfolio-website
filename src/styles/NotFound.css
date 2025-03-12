@@ -1,0 +1,68 @@
+/* src/styles/NotFound.css */
+.not-found-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .not-found-content {
+    max-width: 500px;
+  }
+  
+  .not-found-title {
+    font-size: 8rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 0;
+    line-height: 1;
+    opacity: 0.8;
+  }
+  
+  .not-found-subtitle {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  .not-found-message {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .back-home-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 115, 177, 0.2);
+  }
+  
+  .back-home-btn:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 115, 177, 0.3);
+  }
+  
+  /* Responsive */
+  @media (max-width: 576px) {
+    .not-found-title {
+      font-size: 6rem;
+    }
+    
+    .not-found-subtitle {
+      font-size: 2rem;
+    }
+    
+    .not-found-message {
+      font-size: 1.1rem;
+    }
+  }

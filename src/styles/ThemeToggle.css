@@ -1,0 +1,129 @@
+/* src/styles/ThemeToggle.css */
+.theme-toggle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    color: currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-theme .theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .toggle-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  .theme-toggle:hover .toggle-icon {
+    transform: rotate(30deg);
+  }
+  
+  /* Stili per il tema */
+  :root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9f9f9;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --accent-color: #0073b1;
+    --border-color: #dddddd;
+    --card-bg: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --navbar-bg: #1a1a1a;
+    --navbar-text: #ffffff;
+    
+    --transition-speed: 0.3s;
+  }
+  
+  .dark-theme {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #292929;
+    --text-primary: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --accent-color: #4db5ff;
+    --border-color: #444444;
+    --card-bg: #2d2d2d;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --navbar-bg: #111111;
+    --navbar-text: #f0f0f0;
+  }
+  
+  /* Applicazione del tema */
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color var(--transition-speed) ease,
+                color var(--transition-speed) ease;
+  }
+  
+  .navbar-dark {
+    background-color: var(--navbar-bg) !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: var(--navbar-text);
+  }
+  
+  /* Stili specifici per il tema scuro */
+  .dark-theme .skill-card,
+  .dark-theme .project-card,
+  .dark-theme .contact-card,
+  .dark-theme .blog-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    box-shadow: 0 5px 15px var(--shadow-color);
+  }
+  
+  .dark-theme .skill-title,
+  .dark-theme .project-title,
+  .dark-theme .post-title a {
+    color: var(--text-primary);
+  }
+  
+  .dark-theme .skill-description,
+  .dark-theme .project-description,
+  .dark-theme .post-excerpt {
+    color: var(--text-secondary);
+  }
+  
+  .dark-theme .tech-tag {
+    background-color: var(--border-color);
+    color: var(--text-secondary);
+  }
+  
+  .dark-theme .card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+  }
+  
+  .dark-theme .card-header {
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
+  }
+  
+  .dark-theme pre {
+    background-color: #222;
+    color: #f0f0f0;
+  }
+  
+  /* Animazione per il cambiamento di tema */
+  .theme-transition * {
+    transition: background-color var(--transition-speed) ease,
+                color var(--transition-speed) ease,
+                border-color var(--transition-speed) ease,
+                box-shadow var(--transition-speed) ease;
+  }

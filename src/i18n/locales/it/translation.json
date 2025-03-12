@@ -1,0 +1,135 @@
+{
+    "navigation": {
+      "home": "Home",
+      "about": "Chi sono",
+      "projects": "Progetti",
+      "resources": "Risorse",
+      "cleanCode": "Clean Code",
+      "designPatterns": "Design Pattern",
+      "refactoring": "Refactoring",
+      "blog": "Blog",
+      "contact": "Contatti"
+    },
+    "home": {
+      "pageTitle": "Home",
+      "metaDescription": "Portfolio di Nicola Maraschi, sviluppatore full stack con competenze in frontend, backend e sicurezza informatica",
+      "skillsTitle": "Le mie competenze",
+      "skillsDescription": "Sono uno sviluppatore full-stack con competenze in frontend, backend e cybersecurity. Esplora le mie competenze qui sotto!",
+      "parallax": {
+        "title": "Vuoi collaborare su un progetto?",
+        "description": "Sono sempre aperto a nuove sfide e opportunità di collaborazione. Mettiamoci in contatto!",
+        "buttonText": "Contattami ora"
+      }
+    },
+    "skills": {
+      "htmlCssJs": {
+        "description": "Linguaggi di base per il web"
+      },
+      "reactBootstrap": {
+        "description": "Framework e librerie per UI reattive"
+      },
+      "nodeExpress": {
+        "description": "Server e framework per API"
+      },
+      "pythonJava": {
+        "description": "Linguaggi di programmazione lato server"
+      },
+      "mongoDB": {
+        "description": "Database NoSQL e SQL"
+      },
+      "postgreSQL": {
+        "description": "Altri sistemi di gestione dei dati"
+      },
+      "restGraphQL": {
+        "description": "Tecnologie per interfacce di programmazione"
+      },
+      "jwt": {
+        "description": "Autenticazione sicura per API"
+      },
+      "gitGithub": {
+        "description": "Controllo versione e collaborazione"
+      },
+      "dockerCICD": {
+        "description": "Containerizzazione e integrazione continua"
+      }
+    },
+    "about": {
+      "pageTitle": "Chi Sono",
+      "metaDescription": "Scopri di più su Nicola Maraschi, full stack developer e le sue competenze in sviluppo web e cybersecurity",
+      "title": "Informazioni su di me",
+      "subtitle": "Frontend e Backend Developer",
+      "bio": {
+        "part1": "Laureato triennale di Informatica in corso per Sicurezza Informatica.",
+        "part2": "Lavoro su progetti web completi, dallo sviluppo frontend con React e altre moderne tecnologie, alla creazione di API robuste con Node.js e Python.",
+        "part3": "Ho una forte passione per la cybersecurity e integro sempre best practices di sicurezza in ogni progetto che sviluppo."
+      },
+      "education": {
+        "title": "Formazione",
+        "degree": "Laurea Triennale in Informatica",
+        "university": "Università di Bologna",
+        "period": "2020 - 2023"
+      },
+      "interests": {
+        "title": "Interessi",
+        "item1": "Sviluppo Web",
+        "item2": "Cybersecurity",
+        "item3": "Intelligenza Artificiale",
+        "item4": "Design Pattern"
+      },
+      "recentProjects": "Progetti Recenti",
+      "projects": {
+        "powerRacing": "Sito web per un'azienda nel settore automobilistico",
+        "websiteDave": "Portfolio personale con sezione blog integrata",
+        "ferramentaClient": "E-commerce per un negozio di ferramenta"
+      },
+      "visitProject": "Visita il progetto"
+    },
+    "contact": {
+      "pageTitle": "Contatti",
+      "metaDescription": "Contatta Nicola Maraschi per collaborazioni, progetti o informazioni",
+      "title": "Contattami",
+      "subtitle": "Hai un progetto in mente? Sei interessato a collaborare? Non esitare a metterti in contatto con me!",
+      "form": {
+        "title": "Inviami un messaggio",
+        "name": "Nome",
+        "namePlaceholder": "Il tuo nome",
+        "email": "Email",
+        "emailPlaceholder": "La tua email",
+        "subject": "Oggetto",
+        "subjectPlaceholder": "Oggetto del messaggio",
+        "message": "Messaggio",
+        "messagePlaceholder": "Il tuo messaggio",
+        "submitButton": "Invia messaggio",
+        "sendingButton": "Invio in corso...",
+        "success": "Messaggio inviato con successo! Ti risponderò al più presto.",
+        "error": "Si è verificato un errore nell'invio del messaggio. Riprova più tardi.",
+        "sending": "Invio del messaggio in corso...",
+        "errors": {
+          "nameRequired": "Il nome è obbligatorio",
+          "emailRequired": "L'email è obbligatoria",
+          "emailInvalid": "Inserisci un'email valida",
+          "messageRequired": "Il messaggio è obbligatorio",
+          "messageLength": "Il messaggio deve contenere almeno 10 caratteri"
+        }
+      },
+      "social": {
+        "github": "GitHub",
+        "githubDesc": "Scopri i miei progetti open source e contribuisci!",
+        "githubLink": "Vai al mio GitHub",
+        "linkedin": "LinkedIn",
+        "linkedinDesc": "Connettiti con me e scopri le mie esperienze professionali.",
+        "linkedinLink": "Vai al mio LinkedIn"
+      },
+      "faq": {
+        "title": "Domande frequenti",
+        "question1": "Quali servizi offri?",
+        "answer1": "Offro servizi di sviluppo web full stack, dalla progettazione di interfacce utente responsive alla creazione di API robuste e sicure.",
+        "question2": "Quanto costa un sito web?",
+        "answer2": "Il costo dipende dalla complessità del progetto. Contattami con i dettagli per ricevere un preventivo personalizzato.",
+        "question3": "In quanto tempo realizzi un progetto?",
+        "answer3": "I tempi variano in base alle dimensioni e alla complessità del progetto. Generalmente, un sito web semplice richiede 2-3 settimane, mentre progetti più complessi possono richiedere 1-3 mesi.",
+        "question4": "Lavori da remoto?",
+        "answer4": "Sì, lavoro principalmente da remoto, ma sono disponibile per incontri di persona quando necessario, specialmente nella zona di Bologna."
+      }
+    }
+  }

@@ -1,0 +1,135 @@
+{
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "resources": "Resources",
+      "cleanCode": "Clean Code",
+      "designPatterns": "Design Patterns",
+      "refactoring": "Refactoring",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "home": {
+      "pageTitle": "Home",
+      "metaDescription": "Portfolio of Nicola Maraschi, full stack developer with skills in frontend, backend and cybersecurity",
+      "skillsTitle": "My Skills",
+      "skillsDescription": "I'm a full-stack developer with expertise in frontend, backend, and cybersecurity. Explore my skills below!",
+      "parallax": {
+        "title": "Want to collaborate on a project?",
+        "description": "I'm always open to new challenges and collaboration opportunities. Let's get in touch!",
+        "buttonText": "Contact me now"
+      }
+    },
+    "skills": {
+      "htmlCssJs": {
+        "description": "Basic web languages"
+      },
+      "reactBootstrap": {
+        "description": "Frameworks and libraries for reactive UIs"
+      },
+      "nodeExpress": {
+        "description": "Server and frameworks for APIs"
+      },
+      "pythonJava": {
+        "description": "Server-side programming languages"
+      },
+      "mongoDB": {
+        "description": "NoSQL and SQL databases"
+      },
+      "postgreSQL": {
+        "description": "Other data management systems"
+      },
+      "restGraphQL": {
+        "description": "Technologies for programming interfaces"
+      },
+      "jwt": {
+        "description": "Secure authentication for APIs"
+      },
+      "gitGithub": {
+        "description": "Version control and collaboration"
+      },
+      "dockerCICD": {
+        "description": "Containerization and continuous integration"
+      }
+    },
+    "about": {
+      "pageTitle": "About Me",
+      "metaDescription": "Learn more about Nicola Maraschi, full stack developer and his skills in web development and cybersecurity",
+      "title": "About Me",
+      "subtitle": "Frontend and Backend Developer",
+      "bio": {
+        "part1": "Computer Science graduate currently studying Cybersecurity.",
+        "part2": "I work on complete web projects, from frontend development with React and other modern technologies, to creating robust APIs with Node.js and Python.",
+        "part3": "I have a strong passion for cybersecurity and always integrate security best practices into every project I develop."
+      },
+      "education": {
+        "title": "Education",
+        "degree": "Bachelor's Degree in Computer Science",
+        "university": "University of Bologna",
+        "period": "2020 - 2023"
+      },
+      "interests": {
+        "title": "Interests",
+        "item1": "Web Development",
+        "item2": "Cybersecurity",
+        "item3": "Artificial Intelligence",
+        "item4": "Design Patterns"
+      },
+      "recentProjects": "Recent Projects",
+      "projects": {
+        "powerRacing": "Website for an automotive company",
+        "websiteDave": "Personal portfolio with integrated blog section",
+        "ferramentaClient": "E-commerce for a hardware store"
+      },
+      "visitProject": "Visit project"
+    },
+    "contact": {
+      "pageTitle": "Contact",
+      "metaDescription": "Contact Nicola Maraschi for collaborations, projects or information",
+      "title": "Contact Me",
+      "subtitle": "Have a project in mind? Interested in collaborating? Don't hesitate to get in touch with me!",
+      "form": {
+        "title": "Send me a message",
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "Your email",
+        "subject": "Subject",
+        "subjectPlaceholder": "Message subject",
+        "message": "Message",
+        "messagePlaceholder": "Your message",
+        "submitButton": "Send message",
+        "sendingButton": "Sending...",
+        "success": "Message sent successfully! I'll get back to you as soon as possible.",
+        "error": "An error occurred while sending the message. Please try again later.",
+        "sending": "Sending message...",
+        "errors": {
+          "nameRequired": "Name is required",
+          "emailRequired": "Email is required",
+          "emailInvalid": "Please enter a valid email",
+          "messageRequired": "Message is required",
+          "messageLength": "Message must be at least 10 characters long"
+        }
+      },
+      "social": {
+        "github": "GitHub",
+        "githubDesc": "Discover my open source projects and contribute!",
+        "githubLink": "Go to my GitHub",
+        "linkedin": "LinkedIn",
+        "linkedinDesc": "Connect with me and discover my professional experiences.",
+        "linkedinLink": "Go to my LinkedIn"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "question1": "What services do you offer?",
+        "answer1": "I offer full stack web development services, from designing responsive user interfaces to creating robust and secure APIs.",
+        "question2": "How much does a website cost?",
+        "answer2": "The cost depends on the complexity of the project. Contact me with details to receive a personalized quote.",
+        "question3": "How long does it take to complete a project?",
+        "answer3": "Timelines vary based on project size and complexity. Generally, a simple website takes 2-3 weeks, while more complex projects can take 1-3 months.",
+        "question4": "Do you work remotely?",
+        "answer4": "Yes, I primarily work remotely, but I'm available for in-person meetings when necessary, especially in the Bologna area."
+      }
+    }
+  }

@@ -1,6 +1,7 @@
+// src/pages/Pattern.js
 import React from 'react';
 
-const CreationalPatterns = () => {
+const Pattern = () => {
   const patterns = [
     {
       name: "Singleton 🗝️",
@@ -153,4 +154,4 @@ class Shape implements Prototype {
   );
 };
 
-export default CreationalPatterns;
+export default Pattern; // Cambiato da CreationalPatterns a Pattern
